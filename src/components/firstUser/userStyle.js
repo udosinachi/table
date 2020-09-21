@@ -8,7 +8,8 @@ margin: 10px;
     width: 65%;
     margin: auto;
     padding: 20px;
-    box-shadow: 1px 1px 1px 1px rgb(0, 0, 0, 0.4);
+    box-shadow: 2px 2px 2px 2px rgb(0, 0, 0, 0.4);
+    padding: 35px 0;
     .svg{
         img{
             width: 80px;
@@ -18,6 +19,7 @@ margin: 10px;
         h4{
             padding: 0;
             margin: 3px;
+            color: #252079;
         }
         .subtext{
             display: flex;
@@ -26,11 +28,12 @@ margin: 10px;
             label{
                 text-align: center;
                 font-size: 10px;
-                
+                color: gray;
                 margin: 0 15px 0 0;
                 p{
                     margin: 3px;
                     font-size: 16px;
+                    color: black;
                     
                 }
             }
