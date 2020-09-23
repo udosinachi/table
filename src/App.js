@@ -1,13 +1,13 @@
 import React from 'react';
-import User from './components/firstUser/User'
-import Table from './table/Table'
+import Home from './home/Home'
+import Home2 from './home2/Home2'
 
 function App() {
   return (
     <div className="App" >
         <nav style={{background: '#252079', width: '100%'}}>Nav</nav><br/>
-        <User/><br/>
-        <Table /><br/>
+        <Home />
+        <Home2 />
     </div>
   );
 }
