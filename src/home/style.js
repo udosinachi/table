@@ -1,8 +1,9 @@
 import styled from 'styled-components'
 
 export const Div = styled.div`
+overflow: hidden;
 .hero-wrapper{
-    background-image:url("../images/hero-bg.jpg");
+    background-image:url("/assets/svg/d.jpg");
     position:relative;
     width:100%;
     z-index:1;
@@ -89,4 +90,20 @@ export const Div = styled.div`
         z-index:-1;
         background-image:url('');
     }
+
+
+.section-heading .sec__title{
+    font-size:30px;
+    line-height:35px
+}
+@media only screen and (min-width:768px) and (max-width:991px){
+    .section-heading .sec__title br{display:none}
+}
+    
+@media only screen and (min-width:480px) and (max-width:767px){
+    .section-heading .sec__title br{display:none}
+}@media only screen and (min-width:320px) and (max-width:479px){.section-heading .sec__title br{display:none}}.section-heading .sec__desc{font-size:17px;color:#797f87;line-height:30px;font-weight:400}@media only screen and (min-width:768px) and (max-width:991px){.section-heading .sec__desc br{display:none}}@media only screen and (min-width:480px) and (max-width:767px){.section-heading .sec__desc br{display:none}}@media only screen and (min-width:320px) and (max-width:479px){.section-heading .sec__desc br{display:none}}
+
+
+.theme-btn{font-weight:500;font-size:14px;color:#fff;line-height:48px;padding-left:24px;padding-right:24px;background-color:#26ae61;-webkit-transition:all .3s;-moz-transition:all .3s;-ms-transition:all .3s;-o-transition:all .3s;transition:all .3s;-webkit-box-shadow:0 0 40px rgba(82,85,90,0.1);-moz-box-shadow:0 0 40px rgba(82,85,90,0.1);box-shadow:0 0 40px rgba(82,85,90,0.1);position:relative;display:inline-block;outline:0;-webkit-border-radius:4px;-moz-border-radius:4px;border-radius:4px} .theme-btn :hover{background-color:#1c9c53;color:#fff}.btn-rgb{background-color:rgba(255,255,255,0.1)}
 `
