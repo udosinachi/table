@@ -1,8 +1,9 @@
 import React from 'react'
+import {Div } from './style'
 
 function Home(){
     return(
-        <div>
+        <Div>
             <div className="hero-wrapper">
                 <div className="hero-overlay"></div>
                 <div className="container">
@@ -46,7 +47,7 @@ function Home(){
                     </div>
                 </div>
             </div>
-        </div>
+        </Div>
     )
 }
 
