@@ -3,6 +3,7 @@ import Home from './home/Home'
 import Home2 from './home2/Home2'
 import Home3 from './home3/Home3'
 import Home4 from './home4/Home4'
+import Footer from './footer/Footer'
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         <Home2 />
         <Home3 />
         <Home4 />
+        <Footer />
     </div>
   );
 }
