@@ -1,9 +1,10 @@
 import React from 'react'
+import {Div3} from './Styles3'
 
 function Home3(){
     return(
-        <div>
-            <section class="hiw-area text-center section-bg padding-top-100px padding-bottom-85px">
+        <Div3>
+            <section class="hiw-area text-center section-bg padding-top-100px padding-bottom-85px" style={{textAlign: 'center', paddingTop: '100px', paddingBottom: '85px'}}>
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -23,7 +24,7 @@ function Home3(){
                         <i class="la la-search-plus"></i>
                         <span class="info-number">1</span>
                     </div>
-                    <div class="info-content mt-4">
+                    <div class="info-content mt-4" style={{marginTop: '2rem'}}>
                        <h4 class="info__title mb-3">Find the Right Job</h4>
                         <p class="info__desc">
                             Sed quia lipsum dolor sit atur adipiscing elit is nunc quis
@@ -65,7 +66,7 @@ function Home3(){
         </div>
     </div>
 </section>
-        </div>
+        </Div3>
     )
 }
 
