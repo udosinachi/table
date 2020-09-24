@@ -21,8 +21,8 @@ function Home(){
                                         </p>
                                     </div>
                                     <div className="btn-box margin-top-35px">
-                                        <a href="job-grid-view.html" className="theme-btn mr-2">Buy</a>
-                                        <a href="employer-dashboard-post-job.html" className="theme-btn bg-3">Sell</a>
+                                        <a href="#" className="button1">BUY</a>
+                                        <a href="#" className="button2">SELL</a>
                                     </div>
                                 </div>
                             </div>

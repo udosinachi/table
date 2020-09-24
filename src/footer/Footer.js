@@ -50,9 +50,9 @@ function Footer(){
                 <div className="footer-item">
                     <h4 className="footer__title">Trade</h4>
                     <ul className="list-items">
-                        <li><a href="about.html">Payment methods</a></li>
+                        <li><a href="#">Payment methods</a></li>
                         <li><a href="#">Trade Bitcoin(BTC)</a></li>
-                        <li><a href="blog-grid.html">Trade Etherum(ETH)</a></li>
+                        <li><a href="#">Trade Etherum(ETH)</a></li>
                     </ul>
                 </div>
             </div>
