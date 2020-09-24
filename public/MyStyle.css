@@ -1,40 +1,110 @@
 .button1{
     margin-right: 1rem;
-    width: 250px;
+    width: 230px;
     padding: 20px 70px;
     background: white;
-    color: #1a0554;
+    color: #1a0571;
     border-radius: 5px;
     font-weight: 500;
     transition: 0.5s;
     font-size: 16px;
 }
 :hover.button1{
-    background: #1a0554;
+    background: #1a0571;
     color: white;
     text-decoration: none;
 }
+
+@media only screen and (max-width: 350px){
+    .button1{
+        width: 100px;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .button1{
+        width: 170px;
+        padding: 10px 50px;
+        font-size: 14px;
+    }
+}
+
+
 .button2{
     margin-right: 1rem;
-    width: 250px;
+    width: 230px;
     padding: 20px 70px;
-    background: #1a0554;
+    background: #1a0571;
     color: white;
     border-radius: 5px;
     font-weight: 500;
     transition: 0.5s;
     font-size: 16px;
 }
+@media only screen and (max-width: 350px){
+    .button2{
+        width: 100px;
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 420px){
+    .button2{
+        width: 170px;
+        padding: 10px 50px;
+        font-size: 14px;
+    }
+}
+
 :hover.button2{
     background: white;
-    color: #1a0554;
+    color: #1a0571;
     text-decoration: none;
 }
 
-:hover.theme-btn{
+:hover.theme-btns{
     text-decoration: none;
     background-color: #1a0571;
+    color: white;
 }
-.theme-btn{
-    background-color: #1a0554;
+.theme-btns{
+    width: 50px;
+    padding: 15px 30px;
+    background-color: #1a0571;
+    color: white;
+    border-radius: 5px;
+}
+
+.icon-element{
+    background-color: rgb(233 247 239);
+}
+:hover.icon-element{
+    background-color: rgb(233 247 239);
+}
+.info-number{
+    background-color: rgb(233 247 239);
+}
+
+.theme-btn1{
+    width: 150px;
+    padding: 0 35px;
+    background-color: #1a0571;
+    color: white;
+    border-radius: 5px;
+    margin-right: 1rem;
+    border: none;
+    outline: none;
+}
+
+.theme-btn2{
+    width: 150px;
+    padding: 0 30px;
+    background: #2c2c51;
+    color: white;
+    border-radius: 5px;
+    margin-right: 1rem;
+    border: none;
+    outline: none;
 }

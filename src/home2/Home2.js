@@ -34,7 +34,7 @@ function Home2(props){
         <div className="row">
             <div className="col-lg-12">
                 <div className="btn-box text-center mt-4">
-                    <a href="job-grid-view.html" className="theme-btn">Browse all Category</a>
+                    <a href="job-grid-view.html" className="theme-btns">Browse all Category</a>
                 </div>
             </div>
         </div>

@@ -52,8 +52,8 @@ function Home4(){
                         </li>
                     </ul>
                     <div class="btn-box d-flex text-left margin-top-40px">
-                        <a href="#" class="theme-btn download-btn"><i class="la la-apple"></i>App Store</a>
-                        <a href="#" class="theme-btn download-btn"><i class="la la-android"></i>Google Play</a>
+                        <button href="#" class="theme-btn1 download-btn">App Store</button>
+                        <button href="#" class="theme-btn2 download-btn">Google Play</button>
                     </div>
                 </div>
             </div>
