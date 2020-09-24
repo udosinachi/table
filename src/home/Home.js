@@ -13,16 +13,16 @@ function Home(){
                                 <div className="hero-heading text-center">
                                     <div className="section-heading">
                                         <h2 className="sec__title line-height-65">
-                                            The #1 Job Board for Hiring Designers <br/> and Creative Professionals
+                                            Welcome to Fabled Funds <br/> 
                                         </h2>
                                         <p className="sec__desc line-height-30 font-weight-medium color-white-rgba">
-                                            Each month, more than 3 million job seekers turn to website in their search for work, <br/>
-                                            making over 140,000 applications every single day
+                                            The Fabled Fund Marketplace is here to radically transform the way you spend money. <br/>
+                                            Use hundreds of different payment methods to buy and sell bitcoin.
                                         </p>
                                     </div>
                                     <div className="btn-box margin-top-35px">
-                                        <a href="job-grid-view.html" className="theme-btn mr-2">Find a Job</a>
-                                        <a href="employer-dashboard-post-job.html" className="theme-btn bg-3">Post a Job</a>
+                                        <a href="job-grid-view.html" className="theme-btn mr-2">Buy</a>
+                                        <a href="employer-dashboard-post-job.html" className="theme-btn bg-3">Sell</a>
                                     </div>
                                 </div>
                             </div>
