@@ -1,10 +1,9 @@
 import React from 'react'
-import {Div3} from './Styles3'
 
 function Home3(){
     return(
-        <Div3>
-            <section class="hiw-area text-center section-bg padding-top-100px padding-bottom-85px" style={{textAlign: 'center', paddingTop: '100px', paddingBottom: '85px'}}>
+        <div>
+            <section class="hiw-area text-center section-bg padding-top-100px padding-bottom-85px">
     <div class="container">
         <div class="row">
             <div class="col-lg-12">
@@ -66,7 +65,7 @@ function Home3(){
         </div>
     </div>
 </section>
-        </Div3>
+        </div>
     )
 }
 
